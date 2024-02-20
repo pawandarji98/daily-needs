@@ -1,0 +1,31 @@
+{
+  "name": "daily-needs",
+  "version": "1.0.0",
+  "description": "Daily need is an npm package which comes with all daily needs functions which a software developer requires while developing app.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawandarji98/daily-needs.git"
+  },
+  "author": "Pawan Darji",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pawandarji98/daily-needs/issues"
+  },
+  "keywords": [
+    "array",
+    "object"
+  ],
+  "homepage": "https://github.com/pawandarji98/daily-needs#readme",
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  }
+}
