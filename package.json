@@ -1,6 +1,6 @@
 {
   "name": "daily-needs",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "Daily need is an npm package which comes with all daily needs functions which a software developer requires while developing app.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

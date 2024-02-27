@@ -90,6 +90,41 @@ Example:
 const result = filterArrayByKeyValue(array1, key, value);
 
 
+### Manipulate Date
+This function manipulates date and time 
+
+Parameters:
+Date: This should be Date string    eg: const d = new Date(); d.toString();
+dateOnly: This is boolean parameter, formats only date
+timeOnly: This is boolean parameter, formats only time
+dateTime: This is boolean parameter, formats both date and time
+
+
+Note: First parameter is Date string which is mandatory, and rest parameter pass only true to what you wabnt to format, others must be passed as false
+
+dateManipulate(dateString:string, dateOnly:boolean, timeOnly:boolean, dateTime:boolean);
+
+eg: First Get Date or Create Date
+
+const date = '2024-02-27T16:35:13.088Z'
+
+OR
+
+const d = new date()
+const date = d.toString()
+
+
+OR
+
+const d = new date(YOUR_OWN_DATE_STRING);
+const date = d.toString()
+
+
+
+const formatDate = dateManipulate(date , true, false, false);
+const formatTime = dateManipulate(date , false, true, false);
+const formatDateTime = dateManipulate(date , false, false, true);
+
 
 
 
